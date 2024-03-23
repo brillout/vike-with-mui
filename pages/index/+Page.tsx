@@ -1,5 +1,7 @@
 import React from "react";
 import { Counter } from "./Counter";
+import Paper from '@mui/material/Paper'
+console.log('Paper', Paper)
 
 export default function Page() {
   return (
@@ -12,6 +14,7 @@ export default function Page() {
           Interactive. <Counter />
         </li>
       </ul>
+<Paper>Test</Paper>
     </>
   );
 }
